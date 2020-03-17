@@ -1,6 +1,6 @@
 # Banco TADS
 
-Sistema simples de um banco para prática de requisições concorrentes em servlets na disciplina de Desenvolvimento de Sistemas Web 2.
+Sistema de um banco para prática de requisições concorrentes em servlets na disciplina de Desenvolvimento de Sistemas Web 2.
 
 ## Observação
 
@@ -24,22 +24,26 @@ Nesta atividade <b>NÃO FAÇA UMA INTERFACE BONITA (fron-end)</b>, apenas funcio
 5) A opção Listar contas deve:
   a) Exibir uma lista com todas as contas cadastradas.
   
-6) A opção Cadastrar Conta deve:
-  a) Exibir um formulário com os campos número da conta e nome;
+6) A opção Cadastrar Conta deve:</br>
+  a) Exibir um formulário com os campos número da conta e nome;</br>
   b) Ao clicar no botão cadastrar deve ir para a tela com a lista de contas.
   
-7) A opção Depósito deve:
-  a) Exibir a lista de todas as contas cadastradas com os respectivos saldos;
-  b) Ao clicar na conta exibir um formulário solicitando o valor do depósito;
+7) A opção Depósito deve:</br>
+  a) Exibir a lista de todas as contas cadastradas com os respectivos saldos;</br>
+  b) Ao clicar na conta exibir um formulário solicitando o valor do depósito;</br>
   c) Ao clicar no botão depositar deve voltar para a tela com a lista de contas.
   
-8) A opção Saque deve:
-  a) Exibir a lista de todas as contas cadastradas com os respectivos saldos;
-  b) Ao clicar na conta exibir um formulário solicitando o valor do saque;
+8) A opção Saque deve:</br>
+  a) Exibir a lista de todas as contas cadastradas com os respectivos saldos;</br>
+  b) Ao clicar na conta exibir um formulário solicitando o valor do saque;</br>
   c) Ao clicar no botão Sacar deve voltar para a tela com a lista de contas, o saque só deve ser realizado se tiver saldo.
   
 9) A definição da opção Transferência fica a seu critério!
 
 ## Submissão
 
-Ao submeter os arquivos no Google Classroom não envie o projeto completo, apenas o conteudo da pasta src no formato .zip (outros formatos serão desconsiderados!). No titulo do conteúdo zipado coloque sua matricula.
+Ao submeter os arquivos no Google Classroom siga as seguintes regras:
+* Não envie o projeto completo, apenas o conteudo da pasta src;</br>
+* A pasta src deve estar formato .zip (zipada);</br>
+* Outros formatos de compactação serão desconsiderados;</br>
+* O titulo do conteúdo zipado deve conter <b>apenas<b> sua matricula.
