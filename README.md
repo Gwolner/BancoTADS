@@ -43,7 +43,7 @@ Nesta atividade <b>NÃO FAÇA UMA INTERFACE BONITA (fron-end)</b>, apenas funcio
 ## Submissão
 
 Ao submeter os arquivos no Google Classroom siga as seguintes regras:
-* Não envie o projeto completo, apenas o conteudo da pasta src;</br>
-* A pasta src deve estar formato .zip (zipada);</br>
-* Outros formatos de compactação serão desconsiderados;</br>
+* Não envie o projeto completo, apenas o conteudo da pasta src;
+* A pasta src deve estar formato .zip (zipada);
+* Outros formatos de compactação serão desconsiderados;
 * O titulo do conteúdo zipado deve conter <b>apenas<b> sua matricula.
