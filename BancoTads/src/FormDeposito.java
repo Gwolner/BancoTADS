@@ -29,7 +29,7 @@ public class FormDeposito extends HttpServlet {
 		response.getOutputStream().println("<form action=\"soma\" method=\"POST\">");
 		response.getOutputStream().println("<input type=\"number\" id=\"deposito\" name=\"deposito\"> </br>");
 		response.getOutputStream().println("<input type=\"hidden\" id=\"saldo\" name=\"saldo\" value="+saldo+"> </br>");
-		response.getOutputStream().println("<br> <input type=\"submit\" value=\"Voltar\">");
+		response.getOutputStream().println("<br> <input type=\"submit\" value=\"Depositar\">");
 		response.getOutputStream().println("</form>");
 	}
 

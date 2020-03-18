@@ -26,9 +26,8 @@ public class ServletSoma extends HttpServlet {
 		int index = Listar.saldos.indexOf(saldo);
 		saldo += deposito;
 		Listar.saldos.add(index, saldo);
-		
-		response.getOutputStream().println("<h1>Essa porra deu:"+Listar.saldos.get(index)+"</h1>");
-		
+
+		response.sendRedirect("lista_deposito");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

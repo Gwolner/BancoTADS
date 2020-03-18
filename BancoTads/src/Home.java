@@ -24,12 +24,12 @@ public class Home extends HttpServlet {
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		
 		response.getOutputStream().println("<h1>Bem vindo(a)</br> ao Banco TADS</h1> </br>");
-		response.getOutputStream().println("<h3>Por favor, secolha uma opção abaixo:</h3> </br>");
+		response.getOutputStream().println("<h3>Escolha uma opção abaixo:</h3> </br>");
 		response.getOutputStream().println("<a href=\"listar\">1 - Listar contas</a> </br>");
 		response.getOutputStream().println("<a href=\"cadastrar\">2 - Cadastrar Conta</a> </br>");
-		response.getOutputStream().println("<a href=\"valores\">3 - Depósito</a> </br>");
-		response.getOutputStream().println("<a href=\"sacar\">4 - Saque</a> </br>");
-		response.getOutputStream().println("<a href=\"transf\">5 - Transferência</a>");
+		response.getOutputStream().println("<a href=\"lista_deposito\">3 - Depósito</a> </br>");
+		response.getOutputStream().println("<a href=\"lista_saque\">4 - Saque</a> </br>");
+		response.getOutputStream().println("<a href=\"ted\">5 - Transferência</a>");
 	}
 	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
